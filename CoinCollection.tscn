@@ -1,0 +1,33 @@
+[gd_scene load_steps=2 format=3 uid="uid://c6mnhecifvqy6"]
+
+[ext_resource type="Texture2D" uid="uid://b04pvv7ufnr3x" path="res://Sprites/Coin.png" id="1_o00hc"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, -25)
+texture = ExtResource("1_o00hc")
+
+[node name="Sprite2D5" type="Sprite2D" parent="."]
+position = Vector2(55, 0)
+rotation = 0.785398
+texture = ExtResource("1_o00hc")
+
+[node name="Sprite2D6" type="Sprite2D" parent="."]
+position = Vector2(-55, 0)
+rotation = 0.785398
+texture = ExtResource("1_o00hc")
+
+[node name="Sprite2D3" type="Sprite2D" parent="."]
+position = Vector2(20, 0)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_o00hc")
+
+[node name="Sprite2D4" type="Sprite2D" parent="."]
+position = Vector2(-20, 0)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_o00hc")
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(0, 25)
+texture = ExtResource("1_o00hc")
